@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 import 'GreatFridayList.dart';
+import 'GreatFridayList2.dart';
 
 class GreatFriday extends StatefulWidget {
   const GreatFriday({Key? key}) : super(key: key);
@@ -54,7 +55,7 @@ class _GreatFridayState extends State<GreatFriday> {
           GestureDetector(
             onTap: (){
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return GreatFridayList();
+                return GreatFridayList2();
               }) );
             },
             child: Container(
